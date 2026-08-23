@@ -1,6 +1,7 @@
 import Header from "./components/Header.jsx"
 import About from "./components/About.jsx"
 import Projects from "./components/Projects.jsx"
+import Animations from "./components/Animations.jsx"
 
 export default function App() {
   return (
@@ -9,6 +10,8 @@ export default function App() {
       <About />
       <div className="divider" />
       <Projects />
+      <div className="divider" />
+      <Animations />
       <div className="divider" />
     </>
   )

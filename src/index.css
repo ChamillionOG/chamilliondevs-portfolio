@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 html {
@@ -51,6 +52,22 @@ a {
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 18px;
+}
+
+.section {
+  width: 60%;
+  min-height: 10vh;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 10%;
+  align-items: center;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .box-container {
@@ -285,7 +302,7 @@ a {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
-  margin-top: 30px;
+  padding-top: 50px;
 }
 
 .project-card {
@@ -378,6 +395,55 @@ a {
   color: #6d8cff;
 }
 
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 24px;
+}
+
+.released {
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  background: #00ff00;
+
+  user-select: none;
+}
+
+.pre-release {
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  background: #ffd000;
+
+  user-select: none;
+}
+
+.unreleased {
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  background: #ff0000;
+
+  user-select: none;
+}
+
+.status-text {
+  color: #f1f3f7;
+  font-size: 12px;
+  font-weight: 500;
+
+  user-select: none;
+}
+
 .project-description {
   min-height: 65px;
   margin-top: 20px;
@@ -436,4 +502,71 @@ a {
   max-width: 90%;
   max-height: 90%;
   object-fit: contain;
+}
+
+/** Animations **/
+
+.animations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  transition: transform 0.25s ease;
+}
+
+.animation:hover {
+  transform: scale(1.04);
+}
+
+.animation-title {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f1f3f7;
+  letter-spacing: -0.3px;
+}
+
+.animation-project {
+  margin-top: 4px;
+  text-align: center;
+
+  color: #858b98;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.animation-image {
+  width: 384px;
+  height: 216px;
+  flex-shrink: 0;
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  background: #090b0f;
+
+  outline: 2px solid #505662;
+  outline-offset: 4px;
+
+  transition: outline-color 0.25s ease;
+}
+
+.animation-image:hover {
+  outline-color: #6d8cff;
+}
+
+.animation-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  cursor: pointer;
 }

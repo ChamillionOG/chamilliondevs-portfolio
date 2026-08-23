@@ -8,7 +8,7 @@ export default function About() {
         <h1>Developer.<br /><span>Creator.</span></h1>
 
         <p className="about-description">
-            Hi, I'm Emilian Hasa, a jack of all trades specializing in programming, 3D animation,
+            Hi, I'm Emilian Hasa (Chamillion), a jack of all trades specializing in programming, 3D animation,
             and image editing. I combine technical and creative skills to build
             interactive experiences and bring ideas to life.
         </p>
@@ -65,7 +65,6 @@ export default function About() {
         </div>
 
       </div>
-
     </section>
   );
 }

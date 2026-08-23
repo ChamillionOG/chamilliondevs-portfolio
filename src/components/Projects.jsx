@@ -4,8 +4,8 @@ export default function Projects() {
     const [selectedImage, setSelectedImage] = useState(null);
 
     return (
-        <section id="projects" className="projects">
-            <div className="projects-content">
+        <section id="projects" className="section">
+            <div className="sections-content">
                 <span className="category">MY PROJECTS</span>
 
                 {/**Project Cards**/}
@@ -29,6 +29,12 @@ export default function Projects() {
                             <span>↗</span>
                         </a>
 
+                        {/*Status*/}
+                        <div className="status">
+                            <div className="pre-release"></div>
+                            <span className="status-text">Pre-Release</span>
+                        </div>
+
                         {/*Description*/}
                         <div className="project-description">
                                 A multiplayer game built with Unreal Engine 5 focused on delivering packages, multiplayer gameplay, and interactive systems.
@@ -48,7 +54,7 @@ export default function Projects() {
                         </div>
                     </div>
 
-                    
+
 
                 </div>
             </div>

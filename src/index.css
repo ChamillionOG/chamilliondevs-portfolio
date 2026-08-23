@@ -35,10 +35,6 @@ body {
   overflow-x: hidden;
 }
 
-.app {
-  min-height: 100vh;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -47,6 +43,14 @@ a {
 .app {
   min-height: 1000vh;
   background: #08090c;
+}
+
+.category {
+  color: #6d8cff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
 }
 
 /** Header **/
@@ -134,4 +138,67 @@ a {
   background: rgba(109, 140, 255, 0.1);
   border-color: rgba(109, 140, 255, 0.35);
   transform: translateY(-1px);
+}
+
+/** About **/
+
+.about {
+  width: 60%;
+  min-height: 75vh;
+
+  margin: 0 auto;
+  padding-top: 70px;
+
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  align-items: center;
+}
+
+/* About Text */
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-content h1 {
+  margin-top: 20px;
+
+  font-family: "Space Grotesk", sans-serif;
+
+  font-size: clamp(50px, 5vw, 75px);
+  font-weight: 600;
+
+  line-height: 0.95;
+  letter-spacing: -4px;
+}
+
+.about-content h1 span {
+  color: #858b98;
+}
+
+.about-description {
+  max-width: 500px;
+
+  margin-top: 30px;
+
+  color: #858b98;
+
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* About Image */
+
+.about-image {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+
+  outline: 4px solid #6d8cff;
+  outline-offset: 14px;
+}
+
+.about-image img {
+  width: 100%;
 }

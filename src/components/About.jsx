@@ -39,6 +39,19 @@ export default function About() {
 
         <div className="box">
             <div className="category">02</div>
+            <h2>Languages</h2>
+
+            <div className="list">
+                <span>Python</span>
+                <span>Lua</span>
+                <span>JavaScript</span>
+                <span>C++</span>
+                <span>CSS</span>
+            </div>
+        </div>
+
+        <div className="box">
+            <div className="category">03</div>
             <h2>Tools</h2>
 
             <div className="list">

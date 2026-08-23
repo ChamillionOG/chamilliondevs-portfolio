@@ -37,10 +37,19 @@ export default function Projects() {
                         {/*Images*/}
                         <div className="project-gallery">
                             <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
+                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
+                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
+                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
+                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
+                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
+                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
+                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
+                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
                         </div>
                     </div>
 
-                
+                    
+
                 </div>
             </div>
 

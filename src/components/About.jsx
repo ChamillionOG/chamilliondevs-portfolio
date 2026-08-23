@@ -8,8 +8,9 @@ export default function About() {
         <h1>Developer.<br /><span>Creator.</span></h1>
 
         <p className="about-description">
-          I'm a programmer and game developer who enjoys building
-          interactive experiences and bringing ideas to life through code.
+            Hi, I'm Emilian Hasa, a jack of all trades specializing in programming, 3D animation,
+            and image editing. I combine technical and creative skills to build
+            interactive experiences and bring ideas to life.
         </p>
       </div>
 
@@ -18,6 +19,38 @@ export default function About() {
           src="/PortfolioPicture.jpg"
           alt="Portfolio"
         />
+      </div>
+
+      <div className="box-container">
+
+        <div className="box">
+            <div className="category">01</div>
+            <h2>Skills</h2>
+
+            <div className="list">
+                <span>Programming</span>
+                <span>Game Development</span>
+                <span>3D Animation</span>
+                <span>Image Editing</span>
+                <span>Web Development</span>
+                <span>UI Design</span>
+            </div>
+        </div>
+
+        <div className="box">
+            <div className="category">02</div>
+            <h2>Tools</h2>
+
+            <div className="list">
+                <span>Unreal Engine</span>
+                <span>Roblox Studio</span>
+                <span>Blender</span>
+                <span>Photoshop</span>
+                <span>React</span>
+                <span>Visual Studio</span>
+            </div>
+        </div>
+
       </div>
 
     </section>

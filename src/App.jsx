@@ -1,20 +1,9 @@
-import "./App.css";
-import Header from "./Header";
-import About from "./About";
-import Projects from "./Projects";
-import Animations from "./Animations";
-import Links from "./Links";
+import Header from "./components/Header.jsx"
 
-function App() {
+export default function App() {
   return (
-    <div className="app">
+    <>
       <Header />
-      <About />
-      <Projects />
-      <Animations />
-      <Links />
-    </div>
-  );
+    </>
+  )
 }
-
-export default App;

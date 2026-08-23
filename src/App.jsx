@@ -6,6 +6,7 @@ export default function App() {
     <>
       <Header />
       <About />
+      <div className="divider" />
     </>
   )
 }

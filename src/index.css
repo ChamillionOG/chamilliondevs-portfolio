@@ -570,3 +570,103 @@ a {
   object-fit: cover;
   cursor: pointer;
 }
+
+/** Links **/
+
+.links-content {
+  padding-top: 50px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.link-title {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f1f3f7;
+  letter-spacing: -0.3px;
+
+  padding-bottom: 20px;
+}
+
+.link {
+  width: 50%;
+  height: 100px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  cursor: pointer;
+
+  transition:
+   border-color 0.25s ease, 
+   background 0.25s ease, 
+   transform 0.25s ease;
+}
+
+.link:hover {
+  border-color: rgba(109, 140, 255, 0.3);
+  background: rgba(109, 140, 255, 0.025);
+
+  transform: translateY(-3px);
+}
+
+.link-icon {
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 6px;
+  overflow: hidden;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #090b0f;
+}
+
+.link-icon img {
+  width: 70%;
+  height: 70%;
+  display: block;
+  object-fit: cover;
+}
+
+.link-name {
+  font-family: "Space Grotesk", sans-serif;
+
+  padding-left: 20px;
+
+  font-size: 30px;
+  font-weight: 600;
+
+  color: #d4d4d4;
+
+  line-height: 0.95;
+  letter-spacing: -1px;
+}
+
+.link-description {
+  font-family: "Space Grotesk", sans-serif;
+
+  margin-left: 60px;
+
+  font-size: 20px;
+  font-weight: 300;
+
+  color: #858b98;
+
+  line-height: 0.95;
+  letter-spacing: 0px;
+}

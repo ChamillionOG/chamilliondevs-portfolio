@@ -16,7 +16,7 @@ export default function About() {
 
       <div className="about-image">
         <img
-          src="/PortfolioPicture.jpg"
+          src="/PortfolioPicture.png"
           alt="Portfolio"
         />
       </div>

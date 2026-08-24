@@ -14,7 +14,7 @@ export default function Projects() {
                     {/* Exploding Delivery Service */}
                     <div className="project-card">
                         <div className="project-header">
-                            <div className="project-icon"><img src="../public/EDSImages/Icon.jpg" /></div>
+                            <div className="project-icon"><img src="../public/EDSImages/Icon.png" /></div>
                             
                             {/*Info*/}
                             <div className="title-container">
@@ -42,15 +42,7 @@ export default function Projects() {
 
                         {/*Images*/}
                         <div className="project-gallery">
-                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS1.jpg" onClick={() => setSelectedImage("../public/EDSImages/SS1.jpg")} /></div>
+                            <div className="project-image"><img src="../public/EDSImages/SS1.png" onClick={() => setSelectedImage("../public/EDSImages/SS1.png")} /></div>
                         </div>
                     </div>
 

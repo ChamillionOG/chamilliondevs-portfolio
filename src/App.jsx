@@ -15,7 +15,7 @@ export default function App() {
       <Animations />
       <div className="divider" />
       <Links />
-      <div className="divider" />
+      <footer class="footer"><span class="footer-text">© 2026 Emilian Hasa. All rights reserved. Built using HTML, CSS, and React + Vite.</span></footer>
     </>
   )
 }

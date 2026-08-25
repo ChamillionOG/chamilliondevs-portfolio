@@ -10,11 +10,21 @@
 }
 
 html {
+  font-size: 16px;
   scroll-behavior: smooth;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
 }
 
 body {
   position: relative;
+  width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
 
   background:
     linear-gradient(
@@ -55,7 +65,7 @@ a {
 }
 
 .section {
-  width: 60%;
+  width: min(90%, 1700px);
   min-height: 10vh;
 
   margin: 0 auto;
@@ -222,7 +232,7 @@ a {
 /** About **/
 
 .about {
-  width: 60%;
+  width: min(90%, 1700px);
   min-height: 100vh;
 
   margin: 0 auto;
@@ -230,6 +240,7 @@ a {
 
   display: grid;
   grid-template-columns: 1fr 40%;
+  gap: clamp(30px, 5vw, 80px);
   align-items: center;
 }
 
@@ -281,7 +292,7 @@ a {
 /** Projects **/
 
 .projects {
-  width: 60%;
+  width: min(90%, 1700px);
   min-height: 10vh;
 
   margin: 0 auto;
@@ -300,7 +311,7 @@ a {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
   padding-top: 50px;
 }
@@ -508,8 +519,8 @@ a {
 
 .animations-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  gap: 17px;
   padding-top: 50px;
 }
 
@@ -544,9 +555,10 @@ a {
 }
 
 .animation-image {
-  width: 384px;
-  height: 216px;
-  flex-shrink: 0;
+  width: min(100%, 384px);
+  aspect-ratio: 16 / 9;
+  height: auto;
+  flex-shrink: 1;
 
   border-radius: 10px;
   overflow: hidden;
@@ -595,8 +607,9 @@ a {
 }
 
 .link {
-  width: 50%;
-  height: 100px;
+  width: min(100%, 700px);
+  min-height: 100px;
+  height: auto;
   padding: 20px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(0, 0, 0, 0.25);
@@ -698,4 +711,330 @@ a {
   letter-spacing: 0.5px;
 
   transition: color 0.2s ease;
+}
+
+@media (min-width: 1440px) {
+
+  .section,
+  .about,
+  .projects {
+    width: min(85%, 1400px);
+  }
+
+  .about-content h1 {
+    font-size: clamp(60px, 5vw, 85px);
+  }
+
+  .about-description {
+    font-size: 20px;
+  }
+
+  .projects-grid,
+  .animations-grid {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .section,
+  .about,
+  .projects {
+    width: 90%;
+  }
+
+  .navigation {
+    gap: 20px;
+  }
+
+  .about {
+    grid-template-columns: 1fr 35%;
+    gap: 40px;
+  }
+
+  .about-content h1 {
+    font-size: clamp(45px, 6vw, 65px);
+    letter-spacing: -3px;
+  }
+
+  .about-description {
+    font-size: 17px;
+  }
+
+  .projects-grid,
+  .animations-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .project-card {
+    padding: 20px;
+  }
+
+  .link {
+    width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .header {
+    height: 60px;
+  }
+
+  .header-container {
+    width: calc(100% - 30px);
+  }
+
+  .logo {
+    font-size: 15px;
+  }
+
+  .navigation {
+    gap: 12px;
+  }
+
+  .navigation a {
+    font-size: 11px;
+  }
+
+  .header-button {
+    padding: 7px 10px;
+    font-size: 10px;
+  }
+
+  .section,
+  .about,
+  .projects {
+    width: calc(100% - 30px);
+  }
+
+  .about {
+    min-height: auto;
+    margin-top: 60px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .about-content {
+    text-align: left;
+  }
+
+  .about-content h1 {
+    font-size: clamp(42px, 12vw, 60px);
+    letter-spacing: -2px;
+  }
+
+  .about-description {
+    max-width: 100%;
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .about-image {
+    width: min(65vw, 280px);
+    margin: 0 auto;
+  }
+
+
+  /* Projects */
+
+  .projects-grid,
+  .animations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 20px;
+  }
+
+  .project-title {
+    font-size: clamp(20px, 6vw, 24px);
+  }
+
+  .project-description {
+    min-height: auto;
+    font-size: 13px;
+  }
+
+
+  /* Gallery */
+
+  .project-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  /* Animations */
+
+  .animation-image {
+    width: 100%;
+    max-width: 384px;
+  }
+
+  .animation-title {
+    font-size: 21px;
+  }
+
+  .animation-project {
+    font-size: 13px;
+  }
+
+
+  /* Links */
+
+  .link {
+    width: 100%;
+    min-height: 85px;
+    padding: 15px;
+  }
+
+  .link-icon {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+  }
+
+  .link-name {
+    padding-left: 15px;
+    font-size: clamp(20px, 6vw, 26px);
+  }
+
+  .link-description {
+    margin-left: 15px;
+    font-size: clamp(12px, 4vw, 16px);
+  }
+
+  .divider {
+    width: 90%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .header-container {
+    width: calc(100% - 20px);
+  }
+
+  .navigation {
+    gap: 8px;
+  }
+
+  .navigation a {
+    font-size: 9px;
+  }
+
+  .header-button {
+    padding: 6px 8px;
+    font-size: 9px;
+  }
+
+  .about,
+  .section,
+  .projects {
+    width: calc(100% - 24px);
+  }
+
+  .about-content h1 {
+    font-size: clamp(38px, 13vw, 52px);
+  }
+
+  .about-description {
+    font-size: 14px;
+  }
+
+  .project-card {
+    padding: 16px;
+  }
+
+  .project-header {
+    gap: 10px;
+  }
+
+  .project-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .project-title {
+    font-size: 19px;
+  }
+
+  .project-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .link {
+    min-height: 75px;
+  }
+
+  .link-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .link-name {
+    padding-left: 10px;
+    font-size: 19px;
+  }
+
+  .link-description {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  .footer {
+    height: 60px;
+  }
+
+  .footer-text {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .navigation {
+    gap: 6px;
+  }
+
+  .navigation a {
+    font-size: 8px;
+  }
+
+  .header-button {
+    display: none;
+  }
+
+  .about-content h1 {
+    font-size: 36px;
+  }
+
+  .link-description {
+    display: none;
+  }
+
+  .link-name {
+    font-size: 18px;
+  }
+}
+
+@media (hover: none) {
+
+  .project-card:hover,
+  .box:hover,
+  .link:hover,
+  .animation:hover {
+    transform: none;
+  }
+
+  .navigation a:hover,
+  .project-link:hover {
+    transform: none;
+  }
 }

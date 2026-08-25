@@ -16,7 +16,7 @@ export default function Animations() {
                             <div className="animation-project">Autophobia</div>
                         </div>
                         
-                        <div className="animation-image"><img src="../public/Animations/HowlerPatrol.gif" onClick={() => setSelectedImage("../public/Animations/HowlerPatrol.gif")} /></div>
+                        <div className="animation-image"><img src="/Animations/HowlerPatrol.gif" onClick={() => setSelectedImage("/Animations/HowlerPatrol.gif")} /></div>
                     </div>
 
                     <div className="animation">
@@ -25,7 +25,7 @@ export default function Animations() {
                             <div className="animation-project">Autophobia</div>
                         </div>
                         
-                        <div className="animation-image"><img src="../public/Animations/HowlerChase.gif" onClick={() => setSelectedImage("../public/Animations/HowlerChase.gif")} /></div>
+                        <div className="animation-image"><img src="/Animations/HowlerChase.gif" onClick={() => setSelectedImage("/Animations/HowlerChase.gif")} /></div>
                     </div>
                     
                     <div className="animation">
@@ -34,7 +34,7 @@ export default function Animations() {
                             <div className="animation-project">Autophobia</div>
                         </div>
                         
-                        <div className="animation-image"><img src="../public/Animations/HoundIdle.gif" onClick={() => setSelectedImage("../public/Animations/HoundIdle.gif")} /></div>
+                        <div className="animation-image"><img src="/Animations/HoundIdle.gif" onClick={() => setSelectedImage("/Animations/HoundIdle.gif")} /></div>
                     </div>
 
                     <div className="animation">
@@ -43,7 +43,7 @@ export default function Animations() {
                             <div className="animation-project">Autophobia</div>
                         </div>
                         
-                        <div className="animation-image"><img src="../public/Animations/HoundPatrol.gif" onClick={() => setSelectedImage("../public/Animations/HoundPatrol.gif")} /></div>
+                        <div className="animation-image"><img src="/Animations/HoundPatrol.gif" onClick={() => setSelectedImage("/Animations/HoundPatrol.gif")} /></div>
                     </div>
 
                     <div className="animation">
@@ -52,7 +52,7 @@ export default function Animations() {
                             <div className="animation-project">Autophobia</div>
                         </div>
                         
-                        <div className="animation-image"><img src="../public/Animations/LurkerIdle.gif" onClick={() => setSelectedImage("../public/Animations/LurkerIdle.gif")} /></div>
+                        <div className="animation-image"><img src="/Animations/LurkerIdle.gif" onClick={() => setSelectedImage("/Animations/LurkerIdle.gif")} /></div>
                     </div>
 
                     <div className="animation">
@@ -61,7 +61,7 @@ export default function Animations() {
                             <div className="animation-project">Autophobia</div>
                         </div>
                         
-                        <div className="animation-image"><img src="../public/Animations/LurkerPatrol.gif" onClick={() => setSelectedImage("../public/Animations/LurkerPatrol.gif")} /></div>
+                        <div className="animation-image"><img src="/Animations/LurkerPatrol.gif" onClick={() => setSelectedImage("/Animations/LurkerPatrol.gif")} /></div>
                     </div>
 
                     <div className="animation">
@@ -70,7 +70,7 @@ export default function Animations() {
                             <div className="animation-project">Autophobia</div>
                         </div>
                         
-                        <div className="animation-image"><img src="../public/Animations/SkinstealerPatrol.gif" onClick={() => setSelectedImage("../public/Animations/SkinstealerPatrol.gif")} /></div>
+                        <div className="animation-image"><img src="/Animations/SkinstealerPatrol.gif" onClick={() => setSelectedImage("/Animations/SkinstealerPatrol.gif")} /></div>
                     </div>
 
                     <div className="animation">
@@ -79,7 +79,7 @@ export default function Animations() {
                             <div className="animation-project">Hive Rollers</div>
                         </div>
                         
-                        <div className="animation-image"><img src="../public/Animations/BeeHovering.gif" onClick={() => setSelectedImage("../public/Animations/BeeHovering.gif")} /></div>
+                        <div className="animation-image"><img src="/Animations/BeeHovering.gif" onClick={() => setSelectedImage("/Animations/BeeHovering.gif")} /></div>
                     </div>
 
                 </div>

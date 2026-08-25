@@ -14,7 +14,7 @@ export default function Projects() {
                     {/* Exploding Delivery Service */}
                     <div className="project-card">
                         <div className="project-header">
-                            <div className="project-icon"><img src="../public/EDSImages/Icon.png" /></div>
+                            <div className="project-icon"><img src="/EDSImages/Icon.png" /></div>
                             
                             {/*Info*/}
                             <div className="title-container">
@@ -42,22 +42,22 @@ export default function Projects() {
 
                         {/*Images*/}
                         <div className="project-gallery">
-                            <div className="project-image"><img src="../public/EDSImages/SS1.png" onClick={() => setSelectedImage("../public/EDSImages/SS1.png")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS2.png" onClick={() => setSelectedImage("../public/EDSImages/SS2.png")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS3.png" onClick={() => setSelectedImage("../public/EDSImages/SS3.png")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS4.png" onClick={() => setSelectedImage("../public/EDSImages/SS4.png")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS5.png" onClick={() => setSelectedImage("../public/EDSImages/SS5.png")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS6.png" onClick={() => setSelectedImage("../public/EDSImages/SS6.png")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS7.png" onClick={() => setSelectedImage("../public/EDSImages/SS7.png")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS8.png" onClick={() => setSelectedImage("../public/EDSImages/SS8.png")} /></div>
-                            <div className="project-image"><img src="../public/EDSImages/SS9.png" onClick={() => setSelectedImage("../public/EDSImages/SS9.png")} /></div>
+                            <div className="project-image"><img src="/EDSImages/SS1.png" onClick={() => setSelectedImage("/EDSImages/SS1.png")} /></div>
+                            <div className="project-image"><img src="/EDSImages/SS2.png" onClick={() => setSelectedImage("/EDSImages/SS2.png")} /></div>
+                            <div className="project-image"><img src="/EDSImages/SS3.png" onClick={() => setSelectedImage("/EDSImages/SS3.png")} /></div>
+                            <div className="project-image"><img src="/EDSImages/SS4.png" onClick={() => setSelectedImage("/EDSImages/SS4.png")} /></div>
+                            <div className="project-image"><img src="/EDSImages/SS5.png" onClick={() => setSelectedImage("/EDSImages/SS5.png")} /></div>
+                            <div className="project-image"><img src="/EDSImages/SS6.png" onClick={() => setSelectedImage("/EDSImages/SS6.png")} /></div>
+                            <div className="project-image"><img src="/EDSImages/SS7.png" onClick={() => setSelectedImage("/EDSImages/SS7.png")} /></div>
+                            <div className="project-image"><img src="/EDSImages/SS8.png" onClick={() => setSelectedImage("/EDSImages/SS8.png")} /></div>
+                            <div className="project-image"><img src="/EDSImages/SS9.png" onClick={() => setSelectedImage("/EDSImages/SS9.png")} /></div>
                         </div>
                     </div>
 
                     {/* Insectrix */}
                     <div className="project-card">
                         <div className="project-header">
-                            <div className="project-icon"><img src="../public/InsectrixImages/Icon.png" /></div>
+                            <div className="project-icon"><img src="/InsectrixImages/Icon.png" /></div>
                             
                             {/*Info*/}
                             <div className="title-container">
@@ -79,22 +79,22 @@ export default function Projects() {
 
                         {/*Images*/}
                         <div className="project-gallery">
-                            <div className="project-image"><img src="../public/InsectrixImages/SS1.png" onClick={() => setSelectedImage("../public/InsectrixImages/SS1.png")} /></div>
-                            <div className="project-image"><img src="../public/InsectrixImages/SS2.png" onClick={() => setSelectedImage("../public/InsectrixImages/SS2.png")} /></div>
-                            <div className="project-image"><img src="../public/InsectrixImages/SS3.png" onClick={() => setSelectedImage("../public/InsectrixImages/SS3.png")} /></div>
-                            <div className="project-image"><img src="../public/InsectrixImages/SS4.png" onClick={() => setSelectedImage("../public/InsectrixImages/SS4.png")} /></div>
-                            <div className="project-image"><img src="../public/InsectrixImages/SS5.png" onClick={() => setSelectedImage("../public/InsectrixImages/SS5.png")} /></div>
-                            <div className="project-image"><img src="../public/InsectrixImages/SS6.png" onClick={() => setSelectedImage("../public/InsectrixImages/SS6.png")} /></div>
-                            <div className="project-image"><img src="../public/InsectrixImages/SS7.png" onClick={() => setSelectedImage("../public/InsectrixImages/SS7.png")} /></div>
-                            <div className="project-image"><img src="../public/InsectrixImages/SS8.png" onClick={() => setSelectedImage("../public/InsectrixImages/SS8.png")} /></div>
-                            <div className="project-image"><img src="../public/InsectrixImages/SS9.png" onClick={() => setSelectedImage("../public/InsectrixImages/SS9.png")} /></div>
+                            <div className="project-image"><img src="/InsectrixImages/SS1.png" onClick={() => setSelectedImage("/InsectrixImages/SS1.png")} /></div>
+                            <div className="project-image"><img src="/InsectrixImages/SS2.png" onClick={() => setSelectedImage("/InsectrixImages/SS2.png")} /></div>
+                            <div className="project-image"><img src="/InsectrixImages/SS3.png" onClick={() => setSelectedImage("/InsectrixImages/SS3.png")} /></div>
+                            <div className="project-image"><img src="/InsectrixImages/SS4.png" onClick={() => setSelectedImage("/InsectrixImages/SS4.png")} /></div>
+                            <div className="project-image"><img src="/InsectrixImages/SS5.png" onClick={() => setSelectedImage("/InsectrixImages/SS5.png")} /></div>
+                            <div className="project-image"><img src="/InsectrixImages/SS6.png" onClick={() => setSelectedImage("/InsectrixImages/SS6.png")} /></div>
+                            <div className="project-image"><img src="/InsectrixImages/SS7.png" onClick={() => setSelectedImage("/InsectrixImages/SS7.png")} /></div>
+                            <div className="project-image"><img src="/InsectrixImages/SS8.png" onClick={() => setSelectedImage("/InsectrixImages/SS8.png")} /></div>
+                            <div className="project-image"><img src="/InsectrixImages/SS9.png" onClick={() => setSelectedImage("/InsectrixImages/SS9.png")} /></div>
                         </div>
                     </div>
 
                     {/* Autophobia */}
                     <div className="project-card">
                         <div className="project-header">
-                            <div className="project-icon"><img src="../public/AutophobiaImages/Icon.png" /></div>
+                            <div className="project-icon"><img src="/AutophobiaImages/Icon.png" /></div>
                             
                             {/*Info*/}
                             <div className="title-container">
@@ -122,14 +122,14 @@ export default function Projects() {
 
                         {/*Images*/}
                         <div className="project-gallery">
-                            <div className="project-image"><img src="../public/AutophobiaImages/SS1.png" onClick={() => setSelectedImage("../public/AutophobiaImages/SS1.png")} /></div>
-                            <div className="project-image"><img src="../public/AutophobiaImages/SS2.png" onClick={() => setSelectedImage("../public/AutophobiaImages/SS2.png")} /></div>
-                            <div className="project-image"><img src="../public/AutophobiaImages/SS3.png" onClick={() => setSelectedImage("../public/AutophobiaImages/SS3.png")} /></div>
-                            <div className="project-image"><img src="../public/AutophobiaImages/SS4.png" onClick={() => setSelectedImage("../public/AutophobiaImages/SS4.png")} /></div>
-                            <div className="project-image"><img src="../public/AutophobiaImages/SS5.png" onClick={() => setSelectedImage("../public/AutophobiaImages/SS5.png")} /></div>
-                            <div className="project-image"><img src="../public/AutophobiaImages/SS6.png" onClick={() => setSelectedImage("../public/AutophobiaImages/SS6.png")} /></div>
-                            <div className="project-image"><img src="../public/AutophobiaImages/SS7.png" onClick={() => setSelectedImage("../public/AutophobiaImages/SS7.png")} /></div>
-                            <div className="project-image"><img src="../public/AutophobiaImages/SS8.png" onClick={() => setSelectedImage("../public/AutophobiaImages/SS8.png")} /></div>
+                            <div className="project-image"><img src="/AutophobiaImages/SS1.png" onClick={() => setSelectedImage("/AutophobiaImages/SS1.png")} /></div>
+                            <div className="project-image"><img src="/AutophobiaImages/SS2.png" onClick={() => setSelectedImage("/AutophobiaImages/SS2.png")} /></div>
+                            <div className="project-image"><img src="/AutophobiaImages/SS3.png" onClick={() => setSelectedImage("/AutophobiaImages/SS3.png")} /></div>
+                            <div className="project-image"><img src="/AutophobiaImages/SS4.png" onClick={() => setSelectedImage("/AutophobiaImages/SS4.png")} /></div>
+                            <div className="project-image"><img src="/AutophobiaImages/SS5.png" onClick={() => setSelectedImage("/AutophobiaImages/SS5.png")} /></div>
+                            <div className="project-image"><img src="/AutophobiaImages/SS6.png" onClick={() => setSelectedImage("/AutophobiaImages/SS6.png")} /></div>
+                            <div className="project-image"><img src="/AutophobiaImages/SS7.png" onClick={() => setSelectedImage("/AutophobiaImages/SS7.png")} /></div>
+                            <div className="project-image"><img src="/AutophobiaImages/SS8.png" onClick={() => setSelectedImage("/AutophobiaImages/SS8.png")} /></div>
                         </div>
                     </div>
 

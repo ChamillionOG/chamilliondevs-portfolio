@@ -10,7 +10,7 @@ export default function Links() {
 
                         {/*Discord*/}
                         <a href="https://discord.com/users/829037484515000380" className="link" target="blank" rel="noreferrer">
-                            <div className="link-icon"><img src="../public/DiscordIcon.png" /></div>
+                            <div className="link-icon"><img src="/DiscordIcon.png" /></div>
                             <div className="link-name">Discord</div>
 
                             <div className="link-description">Contact me through Discord!</div>
@@ -18,7 +18,7 @@ export default function Links() {
 
                         {/*Email*/}
                         <a href="mailto:chamillionog@gmail.com?subject=Hello%20from%20your%20portfolio" className="link" target="blank" rel="noreferrer">
-                            <div className="link-icon"><img src="../public/EmailIcon.png" /></div>
+                            <div className="link-icon"><img src="/EmailIcon.png" /></div>
                             <div className="link-name">Email</div>
 
                             <div className="link-description">Contact me through email!</div>
@@ -32,7 +32,7 @@ export default function Links() {
 
                         {/*Discord Server*/}
                         <a href="https://discord.gg/x3XUkpDqJR" className="link" target="blank" rel="noreferrer">
-                            <div className="link-icon"><img src="../public/DiscordIcon.png" /></div>
+                            <div className="link-icon"><img src="/DiscordIcon.png" /></div>
                             <div className="link-name">Discord Server</div>
 
                             <div className="link-description">Check out my Discord Server!</div>
@@ -40,7 +40,7 @@ export default function Links() {
 
                         {/*Youtube*/}
                         <a href="https://www.youtube.com/@ChamillionOG" className="link" target="blank" rel="noreferrer">
-                            <div className="link-icon"><img src="../public/YouTubeIcon.png" /></div>
+                            <div className="link-icon"><img src="/YouTubeIcon.png" /></div>
                             <div className="link-name">YouTube</div>
 
                             <div className="link-description">Check out my YouTube posts!</div>
@@ -48,7 +48,7 @@ export default function Links() {
 
                         {/*Github*/}
                         <a href="https://github.com/ChamillionOG" className="link" target="blank" rel="noreferrer">
-                            <div className="link-icon"><img src="../public/GithubIcon.png" /></div>
+                            <div className="link-icon"><img src="/GithubIcon.png" /></div>
                             <div className="link-name">Github</div>
 
                             <div className="link-description">Check out my projects!</div>
@@ -56,7 +56,7 @@ export default function Links() {
 
                         {/*X*/}
                         <a href="https://x.com/ChamillionOG" className="link" target="blank" rel="noreferrer">
-                            <div className="link-icon"><img src="../public/XIcon.png" /></div>
+                            <div className="link-icon"><img src="/XIcon.png" /></div>
                             <div className="link-name">X</div>
 
                             <div className="link-description">Check out my X posts!</div>

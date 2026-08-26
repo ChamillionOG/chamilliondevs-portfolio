@@ -82,6 +82,24 @@ export default function Animations() {
                         <div className="animation-image"><img src="/Animations/BeeHovering.gif" onClick={() => setSelectedImage("/Animations/BeeHovering.gif")} /></div>
                     </div>
 
+                    <div className="animation">
+                        <div>
+                            <div className="animation-title">Player Walking</div>
+                            <div className="animation-project">Personal</div>
+                        </div>
+                        
+                        <div className="animation-image"><img src="/Animations/PlayerWalking.gif" onClick={() => setSelectedImage("/Animations/PlayerWalking.gif")} /></div>
+                    </div>
+
+                    <div className="animation">
+                        <div>
+                            <div className="animation-title">Player Running</div>
+                            <div className="animation-project">Personal</div>
+                        </div>
+                        
+                        <div className="animation-image"><img src="/Animations/PlayerRunning.gif" onClick={() => setSelectedImage("/Animations/PlayerRunning.gif")} /></div>
+                    </div>
+
                 </div>
             </div>
 

@@ -85,19 +85,46 @@ export default function Animations() {
                     <div className="animation">
                         <div>
                             <div className="animation-title">Player Walking</div>
-                            <div className="animation-project">Personal</div>
+                            <div className="animation-project">One of Us</div>
                         </div>
                         
-                        <div className="animation-image"><img src="/Animations/PlayerWalking.gif" onClick={() => setSelectedImage("/Animations/PlayerWalking.gif")} /></div>
+                        <div className="animation-image"><img src="/Animations/PlayerWalk.gif" onClick={() => setSelectedImage("/Animations/PlayerWalk.gif")} /></div>
                     </div>
 
                     <div className="animation">
                         <div>
                             <div className="animation-title">Player Running</div>
-                            <div className="animation-project">Personal</div>
+                            <div className="animation-project">One of Us</div>
                         </div>
                         
-                        <div className="animation-image"><img src="/Animations/PlayerRunning.gif" onClick={() => setSelectedImage("/Animations/PlayerRunning.gif")} /></div>
+                        <div className="animation-image"><img src="/Animations/PlayerRun.gif" onClick={() => setSelectedImage("/Animations/PlayerRun.gif")} /></div>
+                    </div>
+
+                    <div className="animation">
+                        <div>
+                            <div className="animation-title">Player Crouch Walk</div>
+                            <div className="animation-project">One of Us</div>
+                        </div>
+                        
+                        <div className="animation-image"><img src="/Animations/PlayerCrouchWalk.gif" onClick={() => setSelectedImage("/Animations/PlayerCrouchWalk.gif")} /></div>
+                    </div>
+
+                    <div className="animation">
+                        <div>
+                            <div className="animation-title">Player Bandage Wrap</div>
+                            <div className="animation-project">One of Us</div>
+                        </div>
+                        
+                        <div className="animation-image"><img src="/Animations/BandageWrap.gif" onClick={() => setSelectedImage("/Animations/BandageWrap.gif")} /></div>
+                    </div>
+
+                    <div className="animation">
+                        <div>
+                            <div className="animation-title">Skinstealer Emerge</div>
+                            <div className="animation-project">One of Us</div>
+                        </div>
+                        
+                        <div className="animation-image"><img src="/Animations/SkinStealerEmerge.gif" onClick={() => setSelectedImage("/Animations/SkinStealerEmerge.gif")} /></div>
                     </div>
 
                 </div>
